@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.row
+{
+    border: 1px solid red;
+    height: 150px;
+    font-size: 0px;
+}
+
+.col1
+{
+    display: inline-block;
+    border: 2px solid black;
+    width: 33.33%;
+    height: 100%;
+}
+
+.col2
+{
+    display: inline-block;
+    border: 2px solid blue;
+    width: 50%;
+    height: 100%;
+}
+
+.row2
+{
+    border: 2px solid green;
+    height: 50%;
+}
+
+.col3
+{
+    display: inline-block;
+    border: 2px solid purple;
+    width: 25%;
+    height: 100%;
+}
+
+.row3
+{
+    border: 2px solid orangered;
+    height: 33.33%;
+}
+
+.col4
+{
+    display: inline-block;
+    border: 2px solid slateblue;
+    width: 50%;
+    height: 100%;
+}
