@@ -1,4 +1,4 @@
-<!--12-->
+<!--13-->
 
 <!DOCTYPE html>
 <html>
@@ -11,24 +11,20 @@
         <link rel="icon" type="x-icon" href="/img/favicon.ico">
         
         <style>
-            div.mycontainer
+            
+            .grid-container
             {
-                width: 100%;
-                overflow: auto;
+                display: grid;
+                grid-template-columns: 50% 20%;
             }
-
-            div.mycontainer div
-            {
-                width: 40%;
-                float: left;
-
-            }
+        
         </style>
     </head>
 
     <body>
 
-        <div class="mycontainer">
+        <div class="grid-container">
+            
         <div style="background-color: aquamarine;">
             <h1>LONDON</h1>
             <p>London is the capital of England.</p>
@@ -40,6 +36,7 @@
             <p>Oslo is the capital city of Norway.</p>
             <p>Oslo has over 600.000 inhabitants.</p>
         </div>
+
         </div>
     </body>
 </html>
